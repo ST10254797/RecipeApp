@@ -92,16 +92,7 @@
         {
             ingredients[i].Quantity = ingredients[i].OriginalQuantity;
         }
-    } // Method to reset the recipe by restoring ingredient quantities to their original values
-    public void ResetRecipe()
-    {
-        // Reset ingredient quantities to their original values
-        for (int i = 0; i < ingredientCount; i++)
-        {
-            ingredients[i].Quantity = ingredients[i].OriginalQuantity;
-        }
-    }
-
+    } 
     // Method to clear the recipe
     public void ClearRecipe()
     {
