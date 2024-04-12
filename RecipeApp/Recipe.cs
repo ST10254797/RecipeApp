@@ -92,7 +92,7 @@
         {
             ingredients[i].Quantity = ingredients[i].OriginalQuantity;
         }
-    } 
+    }
     // Method to clear the recipe
     public void ClearRecipe()
     {
@@ -106,7 +106,7 @@
             ingredientCount = 0;
             stepCount = 0;
             Console.WriteLine("Recipe cleared successfully!");
-            
+
         }
         else if (input == "no")
         {
