@@ -60,7 +60,7 @@ class Program
         Console.WriteLine("Thank you for using the Recipe App!");
     }
 
-    // Method to add ingredients to the recipe
+    //
     static void AddIngredient(Recipe recipe)
     {
         string userInput;

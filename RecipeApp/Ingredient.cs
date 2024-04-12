@@ -10,5 +10,5 @@
     public string Unit { get; set; }
 
     // Property to store the original quantity of the ingredient
-   
+    public double OriginalQuantity { get; set; }
 }
