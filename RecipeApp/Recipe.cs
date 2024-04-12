@@ -84,8 +84,6 @@
         Console.WriteLine("------------------------------");
     }
 
-
-
     // Method to reset the recipe by restoring ingredient quantities to their original values
     public void ResetRecipe()
     {
