@@ -60,7 +60,7 @@ class Program
         Console.WriteLine("Thank you for using the Recipe App!");
     }
 
-    //
+    // Method to add ingredients to the recipe
     static void AddIngredient(Recipe recipe)
     {
         string userInput;
@@ -94,7 +94,7 @@ class Program
             userInput = Console.ReadLine();
         } while (userInput.ToLower() == "yes");
     }
-    // Method to add steps to the recipe
+    // 
     static void AddStep(Recipe recipe)
     {
         string userInput;
