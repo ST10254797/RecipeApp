@@ -14,6 +14,7 @@
         stepCount = 0;// Initialize step count to zero
     }
 
+
     // Method to add an ingredient to the recipe
     public void AddIngredient(Ingredient ingredient)
     {
@@ -28,7 +29,6 @@
             Console.WriteLine("Cannot add more ingredients. Recipe capacity reached.");
         }
     }
-
 
     // Method to add a step to the recipe
     public void AddStep(Step step)
@@ -107,7 +107,7 @@
             ingredientCount = 0;
             stepCount = 0;
             Console.WriteLine("Recipe cleared successfully!");
-
+            
         }
         else if (input == "no")
         {
