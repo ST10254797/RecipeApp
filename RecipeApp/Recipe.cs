@@ -118,13 +118,5 @@
         }
     }
 
-    // Method to scale the recipe by multiplying ingredient quantities by a given factor
-    public void ScaleRecipe(double factor)
-    {
-        // Scale the quantities of ingredients
-        for (int i = 0; i < ingredientCount; i++)
-        {
-            ingredients[i].Quantity *= factor;
-        }
     }
 }
