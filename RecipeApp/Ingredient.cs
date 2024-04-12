@@ -1,7 +1,7 @@
 ﻿class Ingredient
 {
     // Property to hold the name of the ingredient
-    public string Name { get; set; }
+ 
 
     // Property to hold the quantity of the ingredient
     public double Quantity { get; set; }
